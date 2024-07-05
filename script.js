@@ -119,7 +119,7 @@ function initChessClock() {
 
     return (
       React.createElement('div', { className: "chess-clock" },
-        React.createElement('h1', null, "Multi-Player Chess Clock"),
+        React.createElement('h1', null, "ספיד ג'נגה כאפה"),
         !gameStarted && React.createElement('div', { className: "setup" },
           React.createElement('div', null,
             React.createElement('label', null, "Players"),
